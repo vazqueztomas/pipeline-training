@@ -36,7 +36,6 @@ jobs:
           echo test, and deploy your project.
 
       - uses: actions/setup-python@v4
+      
       - name: Install dependencies
-        with:
-          python-version: '3.10' 
-      - run: python main.py
+        run: python main.py
